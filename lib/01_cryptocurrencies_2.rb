@@ -9,11 +9,5 @@ hash = h1.zip(h2)
 
 #---------------------------------#
 
-hash.each do |i , j|
-    if j.to_i < 6000
-        puts "Voici les valeurs inférieurs a 6000 dollars"
-        puts i[last]
-        puts j
-    end 
-end 
+puts hash.sort_by {|key, value| value}.reverse #la crypto avec la valeur la plus petite
 

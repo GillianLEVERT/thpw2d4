@@ -12,5 +12,5 @@ for i in 0...twitterlist.length
         puts "Handles by size : #{x-1}"                     # -1 pour ne pas prendre en compte le @
         puts
 end
-    print "#{twitterlist[i]} "
+    print "#{twitterlist[i]}"
 end

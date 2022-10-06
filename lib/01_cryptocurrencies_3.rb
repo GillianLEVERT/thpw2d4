@@ -10,10 +10,9 @@ hash = h1.zip(h2)
 #---------------------------------#
 
 hash.each do |i , j|
-    if j.to_i < 6000
-        puts "Voici les valeurs inférieurs a 6000 dollars"
-        puts i[last]
-        puts j
+        if j.to_i < 6000
+            puts "Voici les valeurs inférieurs a 6000 dollars"
+            puts i
+            puts j
+        end 
     end 
-end 
-
