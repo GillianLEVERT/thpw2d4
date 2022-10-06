@@ -1,0 +1,1 @@
+#puts "Il y'a exactement #{twitterlist.length} noms dans cette liste" #question ligne 1
